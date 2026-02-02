@@ -1,17 +1,42 @@
 header {
-            position: sticky;      
-            top: 0;
-            background-color: #222;
-            color: white;
-            padding: 16px;
-            text-align: center;
-    }
-
+        position: sticky;      
+        top: 0;
+        background-color: #222;
+        color: white;
+        padding: 15px;
+        text-align: center;
+}
     
 main {
       
-            background-color: aquamarine;
-    }
-section {
-  height: 100vh;
+    background-color: aquamarine;
+            
+}
+
+.title-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: black;
+    border: 3px solid black;
+    height: 100vh;
+}
+
+.about-section{
+    color: black;
+    border: 3px solid black;
+    height: 100vh;
+}
+
+.project-section {
+    color: black;
+    border: 3px solid black;
+    height: 100vh;
+}
+
+.collaborate-section{
+    color: black;
+    border: 3px solid black;
+    height: 100vh;
 }
