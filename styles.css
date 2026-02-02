@@ -1,0 +1,17 @@
+header {
+            position: sticky;      
+            top: 0;
+            background-color: #222;
+            color: white;
+            padding: 16px;
+            text-align: center;
+    }
+
+    
+main {
+      
+            background-color: aquamarine;
+    }
+section {
+  height: 100vh;
+}
