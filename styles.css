@@ -15,6 +15,13 @@
     color: rgb(131, 131, 131);
 }
 
+.project-img{
+  height: 100px;
+  width: 190px;
+  top: 0px;
+  left: 0px;
+}
+
 .container {
   display: flex;       /* makes children sit in a row */
   gap: 20px;           /* space between divs */
@@ -28,13 +35,13 @@
 .box-left {
   padding: 20px;
   flex: 2;             /* optional: makes boxes equal width */
-  text-align: center;
+  /* text-align: center; */
 }
 
 .box-right{
   padding: 20px;
   flex: 1;             /* optional: makes boxes equal width */
-  text-align: center;
+  /* text-align: center; */
 }
 
 header {
@@ -69,7 +76,7 @@ main {
 }
 
 section{
-    height: 100vh;
+    min-height: 100vh;
 }
 .title-section{
     display: flex;
