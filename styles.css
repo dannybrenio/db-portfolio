@@ -1,3 +1,6 @@
+* {
+    background-color: black;      
+}
 .text{
     color: white;
     font-family: "Cinetype Mono" ,monospace;
@@ -8,37 +11,44 @@
     color: rgb(131, 131, 131);
 }
 
+.text--header{
+    font-size: 12px;
+}
+
 .project-img{
-  height: 104px;
+  height: 145px;
   width: 262px;
   top: 0px;
   left: 0px;
 }
 
-.container {
-  display: flex;       /* makes children sit in a row */
-  gap: 10px;           /* space between divs */
+.container{
+  display: flex;    
+  gap: 10px;     
+  /* border: 1px solid red;       */
+}
+
+.box--scale{
+    height: 180px;
+}
+
+.bottom--border{
+    border-bottom: 2px solid white;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .box {
   padding: 10px;
-  flex: 1;            
-  text-align: center;
+  flex: 1; 
+  /* border: 1px solid chartreuse; */
 }
-.box-left {
+
+.box--two {
   padding: 10px;
   flex: 2;           
 }
-
-.box-right{
-  padding: 10px;
-  flex: 1;           
-}
     
-main {
-    background-color: black;      
-}
-
 .center-div{
     margin: 150px;
 }
@@ -50,17 +60,6 @@ main {
 }
 
 section{
-    min-height: 100vh;
+    height: 100vh;
     overflow: hidden;
-}
-.title-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.collaborate-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
