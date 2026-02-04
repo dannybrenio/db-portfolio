@@ -16,30 +16,30 @@
 }
 
 .project-img{
-  height: 100px;
-  width: 190px;
+  height: 104px;
+  width: 262px;
   top: 0px;
   left: 0px;
 }
 
 .container {
   display: flex;       /* makes children sit in a row */
-  gap: 20px;           /* space between divs */
+  gap: 10px;           /* space between divs */
 }
 
 .box {
-  padding: 20px;
+  padding: 10px;
   flex: 1;             /* optional: makes boxes equal width */
   text-align: center;
 }
 .box-left {
-  padding: 20px;
+  padding: 10px;
   flex: 2;             /* optional: makes boxes equal width */
   /* text-align: center; */
 }
 
 .box-right{
-  padding: 20px;
+  padding: 10px;
   flex: 1;             /* optional: makes boxes equal width */
   /* text-align: center; */
 }
@@ -77,6 +77,7 @@ main {
 
 section{
     min-height: 100vh;
+    overflow: hidden;
 }
 .title-section{
     display: flex;
