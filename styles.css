@@ -29,14 +29,12 @@
   padding: 20px;
   flex: 2;             /* optional: makes boxes equal width */
   text-align: center;
-  background-color: aqua;
 }
 
 .box-right{
   padding: 20px;
   flex: 1;             /* optional: makes boxes equal width */
   text-align: center;
-  background-color: blue;
 }
 
 header {
