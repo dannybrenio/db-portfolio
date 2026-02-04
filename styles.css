@@ -2,14 +2,14 @@
     color: white;
 }
 
-#main-text{
+.main-text{
      font-family: "Cinetype Mono" ,monospace;
 }
-#header-text{
+.header-text{
     font-family: "Cinetype Mono" ,monospace;
     font-size: 12px;
 }
-#content-text{
+.content-text{
     font-family: "Cinetype Mono" ,monospace;
     font-size: 12px;
     color: rgb(131, 131, 131);
@@ -24,6 +24,19 @@
   padding: 20px;
   flex: 1;             /* optional: makes boxes equal width */
   text-align: center;
+}
+.box-left {
+  padding: 20px;
+  flex: 2;             /* optional: makes boxes equal width */
+  text-align: center;
+  background-color: aqua;
+}
+
+.box-right{
+  padding: 20px;
+  flex: 1;             /* optional: makes boxes equal width */
+  text-align: center;
+  background-color: blue;
 }
 
 header {
@@ -47,11 +60,11 @@ main {
     background-color: black;      
 }
 
-#center-div{
+.center-div{
     margin: 150px;
 }
 
-#center-text{
+.center-text{
       display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +73,7 @@ main {
 section{
     height: 100vh;
 }
-#title-section{
+.title-section{
     display: flex;
     justify-content: center;
     align-items: center;
