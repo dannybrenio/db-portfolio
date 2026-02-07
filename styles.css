@@ -6,13 +6,30 @@
     font-family: "Cinetype Mono" ,monospace;
 }
 
+.header-stick{
+     position: sticky;   
+     top: 0;            
+     color: white;
+     font-family: "Cinetype Mono" ,monospace;
+     padding: 10px 10px;
+     z-index: 1000;    
+}
+
+footer{  
+     bottom: 0;            
+     color: white;
+     font-family: "Cinetype Mono" ,monospace;
+     padding: 10px 10px;
+     z-index: 1000;    
+}
+
 .text--content{
-    font-size: 12px;
+    font-size: 14px;
     color: rgb(131, 131, 131);
 }
 
 .text--header{
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .project-img{
