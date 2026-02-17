@@ -8,9 +8,18 @@
 </head>
     <body>
         <main>
-            <header class="header-stick"><p>My Portfolio</p></header>
-            <section class="center-text"><h1 class="text">Ideas don’t wait—neither do I</h1></section>    
-            <section>
+            <header class="header-stick">
+                <div class="container-grid">
+                    <div class="div1"><p style="margin-left: 10px;">My Portfolio</p></div>
+                    <div class="div2"><a onclick="scrollToSection('about-me')"><p class="center-text">About Me</p></a></div>
+                    <div class="div3"><a onclick="scrollToSection('projects')"><p class="center-text">Projects</p></a></div>
+                    <div class="div4"><a onclick="scrollToSection('work')"><p class="center-text">Work</p></a></div>
+                    
+                    
+                </div>
+            </header>
+            <!-- <section class="center-text"><h1 class="text">Ideas don’t wait—neither do I</h1></section>     -->
+            <section id="about-me">
                 <div class="center-div">
                     <div><h1 class="text">Danny Brenio</h1></div>
                         <p class="text text--header">Backend Developer</p>
@@ -28,7 +37,7 @@
                  </div>
             </section> 
 
-            <section>
+            <section id="projects">
                 <h1 class="text" style="margin-left: 10px;">Project Highlights</h1>
                 <div class="container bottom--border">
                     <div class="box box--two">
@@ -43,10 +52,10 @@
                                     </p>
                                     <p class="text text--content">
                                         AEROSON is a smart IoT-based system for real-time air and sound pollution monitoring at the community level. It measures particulate matter (PM2.5 and PM10), harmful gases like carbon monoxide and nitrogen dioxide, and environmental noise using sensors controlled by an ESP32 microcontroller. Data are sent to a cloud server to compute Air Quality Index values, analyze trends, and generate visual reports via web and mobile apps, offering dashboards, alerts, and predictive analysis for informed decision-making and public health protection.   </p>        
-                                        <p class="text text--content"><u>
+                                        <!-- <p class="text text--content"><u>
                                         Read more
                                     </u>
-                                    </p>
+                                    </p> -->
                                 </div>
                             </div>
                         </div>
@@ -61,10 +70,10 @@
                                     </p>
                                     <p class="text text--content">
                                 The Point of Sale and Inventory Management System for MJ Beauty is a web-based application built using PHP, with MySQL as its backend database. It provides a secure, role-based platform for administrators, staff, and customers to manage inventory, process sales, and place orders online. The system features real-time stock tracking, an intuitive product catalog, and automated reporting, streamlining operations for the cosmetics business. </p>                              
-                                     <p class="text text--content"><u>
+                                     <!-- <p class="text text--content"><u>
                                         Read more
                                     </u>
-                                    </p>
+                                    </p> -->
                                 </div>
                             </div>
                         </div>
@@ -79,10 +88,10 @@
                                     </p>
                                     <p class="text text--content">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.                                    </p>
-                                    <p class="text text--content"><u>
+                                    <!-- <p class="text text--content"><u>
                                         Read more
                                     </u>
-                                    </p>
+                                    </p> -->
                                 </div>
                             </div>
                         </div>
@@ -127,7 +136,7 @@
                     </div>
                 </div>
             </section> 
-            <section>
+            <section id="work">
                 <div class="center-div">
                 <h1 class="text">Work With Me</h1>
                 <p class="text text--content">
@@ -139,4 +148,5 @@
             <footer><p class="center-text">© 2026 Danny Brenio. All rights reserved.</p></footer>
         </main>
     </body>
+    <script src="script.js"></script>
 </html>
