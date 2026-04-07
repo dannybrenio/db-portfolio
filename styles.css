@@ -1,9 +1,16 @@
 * {
-    background-color: black;      
+    background-color: black;    
+    caret-color: transparent;  
 }
+
 html{
      scroll-behavior: smooth;
      scroll-padding-top: 60px;
+}
+
+::selection{
+    color: black;
+    background-color: red;
 }
 
 .text{
@@ -34,7 +41,7 @@ footer{
 
 .text--content{
     font-size: 14px;
-    color: rgb(131, 131, 131);
+    color: #cfcfcf;
 }
 
 .text--header{
